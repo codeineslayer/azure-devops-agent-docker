@@ -1,6 +1,6 @@
 # Azure Pipelines Agent Docker Container Overview
 
-This repository contains the necessary files to build a Docker container for running Azure Pipelines agents on Windows Server Core LTSC 2022. The container includes pre-installed tools like PowerShell and Git and is configured to run Azure Pipelines agents effectively.
+This repository contains the necessary files to build a Docker container for running Azure Pipelines agents on Windows Server Core LTSC 2022. The container includes pre-installed tools like PowerShell and is configured to run Azure Pipelines agents effectively.
 
 ## Repository Structure
 
