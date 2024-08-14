@@ -1,0 +1,12 @@
+# Exclude Dockerfile
+Dockerfile
+
+# Exclude PowerShell script
+start.ps1
+
+# Exclude Git directory
+.git
+
+# Exclude local build directories
+build/
+tmp/
