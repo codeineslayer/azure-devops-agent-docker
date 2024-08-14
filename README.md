@@ -1,5 +1,3 @@
-Here's the complete README in Markdown format with all the requested sections included:
-
 ```markdown
 # Azure Pipelines Agent Docker Container
 
