@@ -4,11 +4,6 @@ $agentPool = "Default" # Adjust the agent pool name as needed
 $organization = "https://dev.azure.com/your-organization" # Replace with your Azure DevOps organization URL
 $personalAccessToken = "YOUR_PERSONAL_ACCESS_TOKEN" # Replace with your PAT
 
-# Configure Terraform (if needed)
-# Assuming Terraform is already installed and you have a Terraform configuration in your repository
-Write-Host "Configuring Terraform..."
-terraform init
-
 # Configure the Azure Pipelines agent
 Write-Host "Configuring Azure Pipelines Agent..."
 Start-Process -FilePath "$env:AGENT_DIR\config.cmd" -ArgumentList `

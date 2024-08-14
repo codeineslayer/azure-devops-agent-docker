@@ -1,12 +1,21 @@
-# Exclude Dockerfile
-Dockerfile
-
-# Exclude PowerShell script
-start.ps1
-
-# Exclude Git directory
+# Ignore version control directories
 .git
+.gitignore
 
-# Exclude local build directories
-build/
-tmp/
+# Ignore build and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore build artifacts
+Dockerfile
+start.ps1
+README.md
+LICENSE
+
+# Ignore any other unnecessary files
